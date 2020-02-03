@@ -1,0 +1,75 @@
+    @font-face {
+        font-family: blanka;
+        src: url(Fonts/Blanka-Regular.otf);
+    }
+
+@font-face {
+    font-family: anuranti;
+    src: url(Fonts/Anurati-Regular.otf);
+}
+
+    html {
+      
+         background: url('images/wallpaper.jpg') no-repeat center center;
+         background-size: cover;
+         position: absolute;
+         width: 100%;
+         height: 100%;
+        text-align: center;
+         z-index: -1;
+         }
+    
+
+    body>* {
+        text-align: center;
+    }
+
+    div.formRow>label {
+        width: 100px;
+        display: inline-block;
+        margin-right: 25px;
+        text-align: right;
+        font-weight: bolder;
+        font-family: blanka;
+    
+    }
+div.formRow>input {
+    font-family: anuranti;
+    background: none;
+}
+h1 {
+    font-family: blanka;
+    font-size: 10vh;
+    color: #F5DBCB;
+    text-shadow: #326F8F 4px 2px;
+    letter-spacing: 3px;
+}
+
+label {
+    font-family: anuranti;
+}
+
+#button {
+    font-family: blanka;
+    border: px solid #A7C0D6;
+    background:none;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 4px 2px;
+    width: 20%;
+    
+}
+
+p {
+ font-family: anuranti;
+}
+
+input,
+textarea {
+    font: 1.4em/1.5em anuranti;
+    border: none;
+    padding: 0 10px;
+    margin: 0;
+    width: 80%;
+    background: none;
+}

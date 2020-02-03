@@ -1,0 +1,102 @@
+<!-- JavaScript Practical Test
+	 Author: Kurt Bruckbauer
+	 Date: 1-24-20
+	 Filename: user.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Olympus submit email</title>
+    <link rel="stylesheet" href="form_styles.css">
+
+    
+</head>
+
+<body>
+
+    <h1 id="form-title">Olympus</h1>
+    <p> * Fields are required</p>
+    <form id="form">
+        <div class="formRow">
+            <label for="name">Name</label> 
+            <input type="text" name="name" id="name" autofocus pattern=".{8,}"
+                placeholder="    *  Enter Name" />
+        </div>
+        <br />
+        <div class="formRow">
+            <label for="email">email : </label>
+            <input type="text" name="email" id="email" placeholder=" * My_Email.Com"
+                pattern="/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/">
+        </div>
+        <br />
+        <div class="formRow">
+            <label for="comments">Comments :</label>
+             <textarea placeholder="* Comments">
+
+        </textarea>
+        </div>
+       
+        </br>
+        <input id="button" type="button" value="SUBMIT" />
+        <form>
+            <h1 id="verify"></h1>
+
+            <!--========================================================-->
+            <!----- Javascript for form validation of email and username ----->
+            <!--========================================================-->
+
+            <script>
+                // Make submit btn clickable
+                document.getElementById("button").addEventListener("click", submit);
+
+
+
+                // Create variables to target input fields
+                let name = document.getElementById("name");
+                let email = document.getElementById("email");
+                let verify = document.getElementById("verify");
+   
+
+
+                // Create submit function
+                function submit() {
+                    runName();
+                    runEmail();
+                   
+                    
+                }
+
+                // Create message that will appear only when all input fields are correctly completed
+       
+
+           
+
+
+                // create validate username function, Confirm username has atleast FOUR characters
+                function runName() {
+                    if (/.{8,}/.test(name.value)) {
+                        return (true)
+                    } else {
+                        window.alert("Please Enter Name that includes atleast EIGHT characters");
+                    }
+
+                }
+
+
+                // Create email validation() 
+                function runEmail() {
+
+
+                    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value)) {
+                        return (true)
+                    }
+                    window.alert("You have entered an invalid email address!")
+                    return (false)
+                }
+
+            </script>
+</body>
+
+</html>

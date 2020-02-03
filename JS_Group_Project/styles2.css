@@ -1,0 +1,315 @@
+@font-face {
+    font-family: ailerons;
+    src: url(Fonts/Ailerons-Regular.otf);
+}
+
+@font-face {
+    font-family: blanka;
+    src: url(Fonts/Blanka-Regular.otf);
+}
+@font-face {
+    font-family: anuranti;
+    src: url(Fonts/Anurati-Regular.otf);
+}
+
+title {
+    font-family: blanka;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin:auto;
+    padding: 2vw;
+    color:#EDEDED;
+     background: linear-gradient(#A7C0D6 100%, #084E93);
+     
+}
+
+
+ .container-fluid {
+     margin: auto;
+ }
+body p {
+    font-family: anuranti;
+}
+
+h1 {
+    font-family: blanka;
+}
+
+span .align-text-top {
+    display: inline-block;
+    vertical-align: top;
+}
+header  {
+    
+    height: 25vh;
+    font-family: blanka;
+    text-align: center;
+    font-size: 10vh ;
+    padding-top: 5vh;
+    color: #F5DBCB;
+    text-shadow: 4px 2px #0A344A;
+    letter-spacing: 3px;
+}
+
+button {
+    background-color: #084E93;
+    color: #0675D6;
+}
+
+
+#carousel img {
+   height: 50vh;
+   width: 100vw;
+}
+
+#carousel2 img {
+    height: 50vh;
+    width: 100vw;
+}
+
+#carousel2 h1 {
+    color: black;
+    text-shadow: 2px  1px red;
+}
+#carousel2 h1 {
+    color: red;
+     text-shadow: 2px 1px black;
+}
+
+h2 {
+    font-family: anuranti;
+}
+
+.bg {
+ background: url('images/wallpaper.jpg') no-repeat center center;
+ background-size: cover;
+ position: fixed;
+ width: 100%;  
+ height: 100%;
+ top:0;
+ left:0; 
+z-index: -1;
+    }
+        
+.window {
+    height: 20vh;
+    width: 100vw;
+    opacity: .05;
+}
+    
+
+
+                 
+                    
+
+.pimg1{
+    background-image: url('images/wallpaper.jpg');
+    min-height: 40vh;
+    width: 100vw;
+    padding-right: 3vw;
+     background-size: 100% 100%;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center;
+     margin: auto;
+}
+.pimg2 {
+    background-image: url('images/AIhomesecurity.png');
+    min-height: 40vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+   
+    margin-right: 3vw;
+    background-position: center;
+    background-size: cover;
+}
+.pimg3 {
+    background-image: url('images/AIphonealert.png');
+    min-height: 40vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption2 {
+   
+    position: absolute;
+    left: 0;
+    top: 2vh;
+    bottom: 0;
+    
+}
+
+
+.pimg1,.pimg2,.pimg3 {
+    margin: auto;
+    opacity: 1.0;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /*==== fixed = paralax
+     scroll = normal======= */
+    background-attachment: fixed;
+}
+
+.section h2 {
+    text-align: center;
+}
+.section {
+    text-align: center;
+    
+   
+}
+
+.section-light {
+    text-align: center;
+    background-color:#EDEDED;
+    color:#313E47;
+}
+
+.section-dark {
+    text-align: center;
+   background-color:#EDEDED;
+   color:#313E47;
+}
+
+
+
+    
+.products {
+    margin: auto;
+    height: auto;
+    width: 100%;
+   
+    padding-bottom: 3vh;
+   
+   
+
+}
+
+ #products h5 {
+    font-family: anuranti;
+ }
+#pro1 {
+    padding-bottom: 5vh;
+    padding-top: 3vh;
+}
+
+
+
+.products h1 {
+    
+    font-size: 10vh;
+    text-align: center;
+    text-shadow: 10px 5px #0A344A;
+    color:  #EDEDED;
+    letter-spacing: 1vw;
+    text-decoration: underline;
+}
+
+
+
+
+.solutions {
+   
+    color: #313E47;
+    
+}
+
+#solutions {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-family: anuranti;
+}
+.solutions h1 {
+    font-size: 7vh;
+    text-align: center;
+     text-shadow: 4px 2px #F5DBCB;
+     color:#0A344A;
+     letter-spacing: 3px;
+     
+     
+}
+
+.solutions h3 {
+    font-size: 10vh;
+     text-shadow: 2px 2px #EDEDED;
+     text-align: center;
+   
+}
+
+
+#p-home {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#p-home h5 {
+    font-family: anuranti;
+}
+#alerts {
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+}
+
+#about-us {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+ #about-us h5 {
+     font-family: anuranti;
+ }
+.contact-us {
+    border: 5px #A7C0D6;
+    margin: auto;
+}
+#about-us h1{
+    text-shadow: 10px 5px #0A344A;
+    color: #EDEDED;
+    font-size: 10vh;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+.contact-us h1 {
+    text-shadow: 10px 1px #F5DBCB;
+    color: #0A344A;
+    font-size: 10vh;
+    letter-spacing: 3px;
+}
+
+.contact-us h2 {
+    font-family: anuranti;
+    font-size: 5vh;
+    text-shadow:2px 1px #313e47;
+    color: #EDEDED;
+}
+.contact-us li {
+    font-family: anuranti;
+}
+
+#footer {
+  
+    min-height: 50px;
+    color: #EDEDED;
+}
+
+footer h2 {
+    font-size: 7vh;
+    color: #EDEDED;
+    text-shadow: 3px 1px #313e47;
+    font-family: anuranti;
+    letter-spacing: 4px;
+
+}
+
+
+footer img {
+    height: 150px;
+    width: 150px;
+}
+
+
+
